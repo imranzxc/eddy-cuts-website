@@ -1,0 +1,165 @@
+.feed_header {
+    margin-bottom: 30px
+}
+
+.feed_posts-post {
+    margin-bottom: 50px
+}
+
+.feed_posts-post:last-of-type {
+    margin-bottom: 0
+}
+
+.feed_posts-post:hover .post-img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.feed_posts-post_wrapper {
+    height: 100%
+}
+
+.feed_posts-post_wrapper .media {
+    margin-bottom: 20px;
+    overflow: hidden
+}
+
+.feed_posts-post_wrapper .media::before {
+    float: left;
+    padding-top: 89.18918918918918%;
+    content: ''
+}
+
+.feed_posts-post_wrapper .media::after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.feed_posts-post_wrapper .media .post-img {
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out
+}
+
+.feed_posts-post_wrapper .main .title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 36px
+}
+
+.feed_posts-post_wrapper .main .info {
+    margin-bottom: 5px
+}
+
+.feed_posts-post_wrapper .main .info_date {
+    margin-right: 10px
+}
+
+.feed_posts-post_wrapper .main .preview {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.feed_pagination {
+    margin-top: 40px
+}
+
+@media screen and (min-width:767.98px) {
+    .feed_header {
+        margin-bottom: 100px
+    }
+
+    .feed_header-subtitle {
+        top: -31%;
+        left: 14%
+    }
+
+    .feed_posts {
+        margin: 0 -15px
+    }
+
+    .feed_posts-post {
+        padding: 0 15px
+    }
+}
+
+@media screen and (min-width:1199.98px) {
+    .feed_header {
+        margin-bottom: 110px
+    }
+
+    .feed_header-subtitle {
+        left: 8%
+    }
+
+    .feed_posts-post {
+        margin-bottom: 70px
+    }
+
+    .feed_posts-post[data-order="7"],.feed_posts-post[data-order="8"] {
+        margin-bottom: 0
+    }
+
+    .feed_posts-post_wrapper .media {
+        margin-bottom: 35px
+    }
+
+    .feed_posts-post_wrapper .media .info,.feed_posts-post_wrapper .media .title {
+        margin-bottom: 10px
+    }
+
+    .feed_posts-post_wrapper .media .info_date {
+        margin-right: 20px
+    }
+
+    .feed_pagination {
+        margin-top: 70px
+    }
+}
+
+.pagination_pages-page .btn {
+    padding: 9px 17px
+}
+
+.pagination_control {
+    color: #eb1616
+}
+
+.pagination_control.btn.theme-element {
+    padding: 9px 20px
+}
+
+@media screen and (min-width:374.98px) {
+    .pagination_pages {
+        margin: 0 14px
+    }
+
+    .pagination_pages-page {
+        margin-right: 10px
+    }
+
+    .pagination_pages-page:last-of-type {
+        margin-right: 0
+    }
+
+    .pagination_control {
+        padding: unset
+    }
+}
+
+@media screen and (min-width:575.98px) {
+    .pagination_pages {
+        margin: 0 30px
+    }
+
+    .pagination_pages-page .btn {
+        padding: 12px 22px
+    }
+
+    .pagination_control.btn.theme-element {
+        padding: 12px 20px
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --config .prettierrc \"src/**/*.{js,jsx,ts,tsx}\" --write"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.4",
+    "next": "12.2.3",
+    "number-counter": "^1.0.3",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.7",
+    "react-hook-form": "^7.33.1",
+    "react-redux": "^8.0.2",
+    "react-upload-gallery": "^0.4.1",
+    "sass": "^1.53.0",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.6"
+  },
+  "browserslist": {
+    "production": [
+      "> 1%, IE 10",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

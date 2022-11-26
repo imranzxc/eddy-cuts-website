@@ -1,0 +1,132 @@
+.contacts_header,.contacts_main-data {
+    margin-bottom: 40px
+}
+
+.contacts_main-data_item {
+    margin-bottom: 15px
+}
+
+.contacts_main-data_item:last-of-type {
+    margin-bottom: 0
+}
+
+.contacts_main-data_item .title {
+    margin-bottom: 10px
+}
+
+.contacts_main-data_item .link--underline {
+    text-transform: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.contacts_main-data_item .link--underline:after {
+    background: #bbb
+}
+
+.contacts_main-form_label {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 500;
+    font-family: Oswald,sans-serif;
+    margin-bottom: 10px;
+    display: block
+}
+
+.contacts_main-form .field {
+    width: 100%;
+    color: #fff
+}
+
+.contacts_main-form .field[data-type=message] {
+    min-height: 180px;
+    margin-bottom: 0
+}
+
+.contacts_main-form .btn {
+    margin-top: 30px
+}
+
+.map #map {
+    min-height: 350px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1)
+}
+
+@media screen and (min-width:767.98px) {
+    .contacts_header-subtitle {
+        top: -90%;
+        left: 14%
+    }
+
+    .contacts_main-form .form-block {
+        width: calc(50% - 15px);
+        margin-bottom: 30px
+    }
+
+    .contacts_main-form .form-block:last-of-type {
+        width: 100%;
+        margin-bottom: 0
+    }
+
+    .contacts_main-form_label {
+        margin-bottom: 20px
+    }
+
+    .contacts_main-data_item--tel .data {
+        margin-right: 20px
+    }
+
+    .contacts_main-data_item--tel .data:last-of-type {
+        margin-right: 0
+    }
+
+    .map #map {
+        min-height: 700px
+    }
+}
+
+@media screen and (min-width:991.98px) {
+    .contacts_header {
+        margin-bottom: 110px
+    }
+
+    .contacts_header-subtitle {
+        left: 10%
+    }
+
+    .contacts_main-data_item {
+        margin-bottom: 30px
+    }
+
+    .contacts_main-form .btn {
+        margin-top: 50px
+    }
+}
+
+@media screen and (min-width:1199.98px) {
+    .contacts_header-subtitle {
+        left: 9%
+    }
+}
+
+@media screen and (min-width:1399.98px) {
+    .contacts_header-subtitle {
+        left: 7%
+    }
+}
+
+a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
+    display: none!important
+}
+
+.gm-style-cc,.gmnoprint a,.gmnoprint span {
+    display: none
+}
+
+.gmnoprint div {
+    background: 0 0!important
+}

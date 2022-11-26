@@ -1,0 +1,27 @@
+@font-face {
+    font-family: icomoon;
+    src: local("icomoon"),url(/fonts/icomoon.woff2) format("woff2"),url(/fonts/icomoon.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family:Oswald;src:local("Oswald-Regular"),url(/fonts/Oswald-Regular.woff2) format("woff2"),url(/fonts/Oswald-Regular.woff) format("woff");font-weight:400;font-style:normal;font-display:swap
+}
+
+@font-face {
+    font-family:Oswald;src:local("Oswald-Medium"),url(/fonts/Oswald-Medium.woff2) format("woff2"),url(/fonts/Oswald-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap
+}
+
+@font-face {
+    font-family:Oswald;src:local("Oswald-SemiBold"),url(/fonts/Oswald-SemiBold.woff2) format("woff2"),url(/fonts/Oswald-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap
+}
+
+@font-face {
+    font-family:Roboto;src:local("Roboto-Medium"),url(/fonts/Roboto-Medium.woff2) format("woff2"),url(/fonts/Roboto-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap
+}
+
+@font-face {
+    font-family:Roboto;src:local("Roboto-Regular"),url(/fonts/Roboto-Regular.woff2) format("woff2"),url(/fonts/Roboto-Regular.woff) format("woff");font-weight:400;font-style:normal;font-display:swap
+}

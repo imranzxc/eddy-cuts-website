@@ -1,0 +1,112 @@
+.error {
+    min-height: 100vh;
+    min-width: 100vw
+}
+
+.error_message {
+    margin-top: 40px
+}
+
+.error_message-text {
+    margin: 10px 0 30px;
+    text-align: center;
+    max-width: 470px
+}
+
+.error_code {
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+    background: url(/img/placeholder.jpg) center/cover no-repeat fixed;
+    min-width: 221px;
+    min-height: 122px;
+    margin: 0 auto
+}
+
+.error_code-code--lg,.error_code-code--md,.error_code-code--sm {
+    display: none
+}
+
+@media screen and (min-width:575.98px) {
+    .error_code {
+        -webkit-clip-path: url(#svgPath--sm);
+        clip-path: url(#svgPath--sm);
+        min-width: 327px;
+        min-height: 177px
+    }
+
+    .error_code-code {
+        display: none
+    }
+
+    .error_code-code--sm {
+        display: unset
+    }
+}
+
+@media screen and (min-width:767.98px) {
+    .error_code {
+        -webkit-clip-path: url(#svgPath--md);
+        clip-path: url(#svgPath--md);
+        min-width: 670px;
+        min-height: 361px
+    }
+
+    .error_code-code--sm {
+        display: none
+    }
+
+    .error_code-code--md {
+        display: unset
+    }
+
+    .error_message {
+        margin-top: 80px
+    }
+}
+
+@media screen and (min-width:991.98px) {
+    .error {
+        padding-top: 0
+    }
+
+    .error_message {
+        margin-top: 0
+    }
+
+    .error_message-text {
+        margin: 20px 0 50px;
+        text-align: left
+    }
+
+    .error_code {
+        -webkit-clip-path: url(#svgPath--lg);
+        clip-path: url(#svgPath--lg);
+        min-width: 467px;
+        min-height: 252px
+    }
+
+    .error_code-code--md {
+        display: none
+    }
+
+    .error_code-code--lg {
+        display: unset
+    }
+}
+
+@media screen and (min-width:1399.98px) {
+    .error_code {
+        -webkit-clip-path: url(#svgPath--md);
+        clip-path: url(#svgPath--md);
+        min-width: 670px;
+        min-height: 361px
+    }
+
+    .error_code-code--lg {
+        display: none
+    }
+
+    .error_code-code--md {
+        display: unset
+    }
+}
